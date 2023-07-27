@@ -382,6 +382,10 @@ textarea {
 #index a:link, #index a:visited {
   color: var(--cadetblue);
 }
+#index a:hover, #index a:active {
+  color: var(--cadetblue);
+}
+
 /* =============
     Contact
 ============= */
