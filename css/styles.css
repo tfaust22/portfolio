@@ -337,10 +337,10 @@ header {
   background-color: darkseagreen;
 }
 header white:link, header white:visited {
-  color: var(--whitee);
+  color: white;
 }
 header cadetblue:hover, header cadetblue:active {
-  color: var(--cadetblue);
+  color: cadetblue;
 }
 
 footer {
