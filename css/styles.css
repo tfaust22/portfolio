@@ -13,7 +13,8 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
-  --darkgreen: cadetblue;
+  --darkgreen: darkseagreen;
+  --cadetblue: cadetblue;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -333,7 +334,7 @@ template {
     Base
 ============= */
 header {
-  background-color: cadetblue;
+  background-color: darkseagreen;
 }
 
 footer {
@@ -379,7 +380,7 @@ textarea {
     Index
 ============= */
 #index a:link, #index a:visited {
-  color: var(--darkseagreen);
+  color: var(--cadetblue);
 }
 /* =============
     Contact
