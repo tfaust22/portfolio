@@ -4,16 +4,13 @@
 
 header{
 background-color: darkseagreen;
+white:link, white:visited{
+    color: var(--whitee);
+}
+cadetblue:hover, cadetblue:active{
+    color: var(--cadetblue)
+}
 }
 footer{
     background-color: darkseagreen;
-}
-
-main{
-    cadetblue:link, cadetblue:visited{
-        color: var(--cadetblue);
-    }
-    cadetblue:hover, cadetblue:active{
-        color: var(--cadetblue)
-    }
 }
