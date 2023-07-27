@@ -378,6 +378,9 @@ textarea {
 /* =============
     Index
 ============= */
+#index a:link, #index a:visited {
+  color: var(--darkseagreen);
+}
 /* =============
     Contact
 ============= */
