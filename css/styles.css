@@ -341,6 +341,13 @@ footer {
   background-color: darkseagreen;
 }
 
+main cadetblue:link, main cadetblue:visited {
+  color: var(--cadetblue);
+}
+main cadetblue:hover, main cadetblue:active {
+  color: var(--cadetblue);
+}
+
 /* =============
     Typography
 ============= */
