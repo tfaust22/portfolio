@@ -359,6 +359,10 @@ body {
   grid-area: content;
 }
 
+section {
+  text-decoration: none;
+}
+
 /* =============
     Typography
 ============= */
