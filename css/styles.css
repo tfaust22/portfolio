@@ -413,10 +413,10 @@ textarea {
     Index
 ============= */
 #index a:link, #index a:visited {
-  color: var(#0473af);
+  color: var(#054e76);
 }
 #index a:hover, #index a:active {
-  color: var(#0473af);
+  color: var(#054e76);
 }
 
 /* =============
