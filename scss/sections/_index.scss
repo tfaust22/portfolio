@@ -10,3 +10,11 @@
         color: var(#054e76)
     }
 }
+
+#index-content{
+    @include lg{
+        dispaly: grid;
+        grid-template-columns: 50%;
+        gap: 16px
+    }
+}

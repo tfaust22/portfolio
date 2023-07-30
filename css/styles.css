@@ -419,6 +419,15 @@ textarea {
   color: var(#054e76);
 }
 
+@media (min-width: 1024px) {
+  #index-content {
+    dispaly: grid;
+    -ms-grid-columns: 50%;
+    grid-template-columns: 50%;
+    gap: 16px;
+  }
+}
+
 /* =============
     Contact
 ============= */
