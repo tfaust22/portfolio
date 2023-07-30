@@ -347,6 +347,17 @@ footer {
   background-color: darkseagreen;
 }
 
+body {
+  background-color: lightgray;
+}
+
+.content-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16px auto 16px;
+  grid-template-columns: 16px auto 16px;
+}
+
 /* =============
     Typography
 ============= */
