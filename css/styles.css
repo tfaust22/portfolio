@@ -336,12 +336,6 @@ template {
 header {
   background-color: darkseagreen;
 }
-header white:link, header white:visited {
-  color: white;
-}
-header cadetblue:hover, header cadetblue:active {
-  color: cadetblue;
-}
 
 footer {
   background-color: darkseagreen;
