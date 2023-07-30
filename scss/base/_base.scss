@@ -30,7 +30,7 @@ body{
     }
 }
 
-#index-content{
+.index-content{
     @include lg{
         dispaly: grid;
         grid-template-columns: 50% auto;

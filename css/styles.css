@@ -366,7 +366,7 @@ body {
 }
 
 @media (min-width: 1024px) {
-  #index-content {
+  .index-content {
     dispaly: grid;
     -ms-grid-columns: 50% 16px auto;
     grid-template-columns: 50% auto;
@@ -374,7 +374,7 @@ body {
   }
 }
 @media (min-width: 1200px) {
-  #index-content {
+  .index-content {
     -ms-grid-columns: 50% auto;
     grid-template-columns: 50% auto;
   }
