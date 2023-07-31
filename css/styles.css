@@ -434,33 +434,44 @@ textarea {
   color: var(#054e76);
 }
 
-#index-content {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 16px auto;
-  grid-template-columns: 50% auto;
-  -ms-grid-rows: auto 16px auto;
-      grid-template-areas: "il ir" "ib ib";
-  gap: 16px;
+@media (min-width: 768px) {
+  #index-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 16px auto;
+    grid-template-columns: 50% auto;
+    -ms-grid-rows: auto 16px auto;
+        grid-template-areas: "il ir" "ib ib";
+    gap: 16px;
+  }
 }
 
 #index-left {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: il;
 }
 
 #index-right {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
   grid-area: ir;
 }
 
 #index-bottom {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-area: ib;
+}
+
+@media (min-width: 768px) {
+  #index-left {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #index-right {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  #index-bottom {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
 }
 
 /* =============
