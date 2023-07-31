@@ -434,19 +434,33 @@ textarea {
   color: var(#054e76);
 }
 
-@media (min-width: 1024px) {
-  #index-content {
-    dispaly: grid;
-    -ms-grid-columns: 50% 16px auto;
-    grid-template-columns: 50% auto;
-    gap: 16px;
-  }
+#index-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 16px auto;
+  grid-template-columns: 50% auto;
+  -ms-grid-rows: auto 16px auto;
+      grid-template-areas: "il ir" "ib ib";
+  gap: 16px;
 }
-@media (min-width: 1200px) {
-  #index-content {
-    -ms-grid-columns: 50% auto;
-    grid-template-columns: 50% auto;
-  }
+
+#index-left {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: il;
+}
+
+#index-right {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: ir;
+}
+
+#index-bottom {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: ib;
 }
 
 /* =============

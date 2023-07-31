@@ -19,17 +19,6 @@
     "ib ib";
     gap: 16px;
 
-    @include lg{
-        dispaly: grid;
-        grid-template-columns: 60% auto;
-        gap: 16px
-    }
-    @include xl{
-        grid-template-columns: 70% auto;
-    }
-    @include xxl{
-        grid-template-columns: 75% auto;
-    }
 }
 
 #index-left{
