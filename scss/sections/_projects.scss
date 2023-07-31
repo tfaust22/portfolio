@@ -7,13 +7,18 @@
         display: grid;
         grid-template-columns: 30% auto;
         grid-template-areas:
-        "pl pr";
+        "plt   pr"
+        "plr   pr";
         gap: 16px;  
     }
 }
 
-#project-left{
-    grid-area: pl;
+#project-left-top{
+    grid-area: plt;
+}
+
+#project-left-bottom{
+    grid-area: plr;
 }
 
 #project-right{

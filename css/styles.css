@@ -543,13 +543,18 @@ textarea {
     display: grid;
     -ms-grid-columns: 30% 16px auto;
     grid-template-columns: 30% auto;
-        grid-template-areas: "pl pr";
+    -ms-grid-rows: auto 16px auto;
+        grid-template-areas: "plt   pr" "plr   pr";
     gap: 16px;
   }
 }
 
-#project-left {
-  grid-area: pl;
+#project-left-top {
+  grid-area: plt;
+}
+
+#project-left-bottom {
+  grid-area: plr;
 }
 
 #project-right {
@@ -557,12 +562,17 @@ textarea {
 }
 
 @media (min-width: 768px) {
-  #project-left {
+  #project-left-top {
     -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #project-left-bottom {
+    -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
   #project-right {
     -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
     -ms-grid-column: 3;
   }
 }
