@@ -5,7 +5,7 @@
 #project-content{
     @include md{
         display: grid;
-        grid-template-columns: 40% auto;
+        grid-template-columns: 30% auto;
         grid-template-areas:
         "plt   pr"
         "plr   pr";
