@@ -7,6 +7,7 @@
         grid-template-columns: 30% auto;
         grid-template-areas:
         "el er"
+        "eb eb";
         gap: 16px;  
     }
 }
@@ -17,4 +18,8 @@
 
 #edu-right{
     grid-area: er;
+}
+
+#edu-bottom{
+    grid-area: eb;
 }

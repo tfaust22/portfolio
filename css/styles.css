@@ -486,6 +486,46 @@ textarea {
 /* =============
     Education
 ============= */
+@media (min-width: 768px) {
+  #edu-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 16px auto;
+    grid-template-columns: 30% auto;
+    -ms-grid-rows: auto 16px auto;
+        grid-template-areas: "el er" "eb eb";
+    gap: 16px;
+  }
+}
+
+#edu-left {
+  grid-area: el;
+}
+
+#edu-right {
+  grid-area: er;
+}
+
+#edu-bottom {
+  grid-area: eb;
+}
+
+@media (min-width: 768px) {
+  #edu-left {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #edu-right {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  #edu-bottom {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+}
+
 /* =============
     Projects
 ============= */
