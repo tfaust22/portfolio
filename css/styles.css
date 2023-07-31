@@ -543,8 +543,7 @@ textarea {
     display: grid;
     -ms-grid-columns: 30% 16px auto;
     grid-template-columns: 30% auto;
-    -ms-grid-rows: auto 16px auto;
-        grid-template-areas: "pl pr" "pl pr";
+        grid-template-areas: "pl pr";
     gap: 16px;
   }
 }
@@ -560,12 +559,10 @@ textarea {
 @media (min-width: 768px) {
   #project-left {
     -ms-grid-row: 1;
-    -ms-grid-row-span: 3;
     -ms-grid-column: 1;
   }
   #project-right {
     -ms-grid-row: 1;
-    -ms-grid-row-span: 3;
     -ms-grid-column: 3;
   }
 }
