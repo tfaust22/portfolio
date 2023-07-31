@@ -1,3 +1,20 @@
 /* =============
     Education
 ============= */
+#edu-content{
+    @include md{
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas:
+        "el er"
+        gap: 16px;  
+    }
+}
+
+#index-left{
+    grid-area: el;
+}
+
+#index-right{
+    grid-area: er;
+}
