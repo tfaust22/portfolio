@@ -1,3 +1,22 @@
 /* =============
     Projects
 ============= */
+
+#project-content{
+    @include md{
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas:
+        "pl pr"
+        "pl pr";
+        gap: 16px;  
+    }
+}
+
+#project-left{
+    grid-area: pl;
+}
+
+#project-right{
+    grid-area: pr;
+}
