@@ -490,8 +490,8 @@ textarea {
   #edu-content {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30% 16px auto;
-    grid-template-columns: 30% auto;
+    -ms-grid-columns: 40% 16px auto;
+    grid-template-columns: 40% auto;
     -ms-grid-rows: auto 16px auto 16px auto;
         grid-template-areas: "el ert" "elt er" "eb eb";
     gap: 16px;
