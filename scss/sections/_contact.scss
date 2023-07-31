@@ -1,3 +1,21 @@
 /* =============
     Contact
 ============= */
+
+#contact-content{
+    @include md{
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas:
+        "cl cr";
+        gap: 16px;  
+    }
+}
+
+#contact-left{
+    grid-area: cl;
+}
+
+#contact-right{
+    grid-area: cr;
+}

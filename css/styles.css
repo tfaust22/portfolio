@@ -477,6 +477,36 @@ textarea {
 /* =============
     Contact
 ============= */
+@media (min-width: 768px) {
+  #contact-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 16px auto;
+    grid-template-columns: 30% auto;
+        grid-template-areas: "cl cr";
+    gap: 16px;
+  }
+}
+
+#contact-left {
+  grid-area: cl;
+}
+
+#contact-right {
+  grid-area: cr;
+}
+
+@media (min-width: 768px) {
+  #contact-left {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #contact-right {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+}
+
 /* =============
     Associations
 ============= */
