@@ -434,7 +434,7 @@ textarea {
   color: var(#054e76);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #index-content {
     display: -ms-grid;
     display: grid;
@@ -458,7 +458,7 @@ textarea {
   grid-area: ib;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #index-left {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -477,7 +477,7 @@ textarea {
 /* =============
     Contact
 ============= */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #contact-content {
     display: -ms-grid;
     display: grid;
@@ -496,7 +496,7 @@ textarea {
   grid-area: cr;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #contact-left {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -516,7 +516,7 @@ textarea {
 /* =============
     Education
 ============= */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #edu-content {
     display: -ms-grid;
     display: grid;
@@ -544,7 +544,7 @@ textarea {
   grid-area: eb;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #edu-left {
     -ms-grid-row: 1;
     -ms-grid-column: 1;

@@ -12,7 +12,7 @@
 }
 
 #index-content{
-    @include md{
+    @include lg{
         display: grid;
         grid-template-columns: 30% auto;
         grid-template-areas:
