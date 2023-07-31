@@ -6,8 +6,8 @@
         display: grid;
         grid-template-columns: 30% auto;
         grid-template-areas:
-        "el er"
-        "el er"
+        "el ert"
+        "elt er"
         "eb eb";
         gap: 16px;  
     }
@@ -17,8 +17,12 @@
     grid-area: el;
 }
 
-#edu-right{
-    grid-area: er;
+#edu-right-text{
+    grid-area: ert;
+}
+
+#edu-left-text{
+    grid-area: elt;
 }
 
 #edu-bottom{
