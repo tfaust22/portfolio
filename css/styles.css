@@ -333,11 +333,8 @@ template {
 /* =============
     Base
 ============= */
-nav {
+header {
   background-color: darkseagreen;
-}
-nav #contact-nag {
-  background-color: white;
 }
 
 footer {
