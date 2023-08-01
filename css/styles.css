@@ -602,6 +602,7 @@ h2 {
 #edu-right-text {
   grid-area: ert;
   padding-left: 140px;
+  padding-bottom: 24px;
 }
 #edu-right-text h2 {
   padding-left: 16px;
