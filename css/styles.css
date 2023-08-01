@@ -423,7 +423,7 @@ header {
   padding: 48px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 header nav a:link, header nav a:visited {
   color: var(darkseagreen);
