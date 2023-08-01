@@ -543,6 +543,16 @@ footer {
 /* =============
     Associations
 ============= */
+section {
+  padding-left: 48px;
+}
+section ul {
+  padding-left: 64px;
+}
+section ul li {
+  list-style-type: disc;
+}
+
 /* =============
     Experience
 ============= */
