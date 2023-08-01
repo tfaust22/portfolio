@@ -553,6 +553,12 @@ h2 {
 #experience-top {
   padding-bottom: 16px;
 }
+#experience-top ul {
+  padding-left: 24px;
+}
+#experience-top ul li {
+  list-style-type: disc;
+}
 
 /* =============
     Education
