@@ -432,7 +432,7 @@ header h2 {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.125rem;
 }
 header nav a:link, header nav a:visited {
   color: var(darkseagreen);
