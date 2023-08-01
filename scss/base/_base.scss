@@ -2,7 +2,7 @@
     Base
 ============= */
 
-header{
+nav{
 background-color: darkseagreen;
 }
 
@@ -27,16 +27,5 @@ body{
         background-color: white;
         grid-area: content;
 
-    }
-}
-
-.index-content{
-    @include lg{
-        dispaly: grid;
-        grid-template-columns: 50% auto;
-        gap: 16px
-    }
-    @include xl{
-        grid-template-columns: 50% auto;
     }
 }

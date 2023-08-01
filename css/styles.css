@@ -333,7 +333,7 @@ template {
 /* =============
     Base
 ============= */
-header {
+nav {
   background-color: darkseagreen;
 }
 
@@ -363,21 +363,6 @@ body {
   -ms-grid-column: 2;
   background-color: white;
   grid-area: content;
-}
-
-@media (min-width: 1024px) {
-  .index-content {
-    dispaly: grid;
-    -ms-grid-columns: 50% 16px auto;
-    grid-template-columns: 50% auto;
-    gap: 16px;
-  }
-}
-@media (min-width: 1200px) {
-  .index-content {
-    -ms-grid-columns: 50% auto;
-    grid-template-columns: 50% auto;
-  }
 }
 
 /* =============
