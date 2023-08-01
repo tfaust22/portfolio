@@ -631,12 +631,14 @@ h2 {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 16px;
+  line-height: 1.5;
 }
 
 #experience-blurb {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 24px;
+  line-height: 1.5;
 }
 
 /* =============
