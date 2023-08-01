@@ -23,3 +23,15 @@
 #nav-contact{
     background-color: white;
 }
+.social-icons{
+    li{
+        margin: 0 8px
+        a:link, a:visited{
+            color: var(darkseagreen);
+        }
+
+        a:hover, a:active{
+            color: var(cadetblue);
+        }
+    }
+}
