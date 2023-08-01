@@ -487,6 +487,9 @@ header {
     -ms-grid-column-span: 3;
   }
 }
+#index-bottom h2 {
+  padding-bottom: 24px;
+}
 
 /* =============
     Contact
