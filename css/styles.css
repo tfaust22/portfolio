@@ -587,9 +587,11 @@ h2 {
   #edu-content {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30% auto;
+    -ms-grid-columns: 30% 16px auto;
     grid-template-columns: 30% auto;
+    -ms-grid-rows: auto 16px auto 16px auto;
         grid-template-areas: "el ert" "elt er" "eb eb";
+    gap: 16px;
   }
 }
 
@@ -636,16 +638,16 @@ h2 {
   }
   #edu-right-text {
     -ms-grid-row: 1;
-    -ms-grid-column: 2;
+    -ms-grid-column: 3;
   }
   #edu-left-text {
-    -ms-grid-row: 2;
+    -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
   #edu-bottom {
-    -ms-grid-row: 3;
+    -ms-grid-row: 5;
     -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
+    -ms-grid-column-span: 3;
   }
 }
 #edu-bottom h2 {
