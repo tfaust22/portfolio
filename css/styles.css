@@ -481,6 +481,10 @@ header {
   }
 }
 
+#index-right {
+  padding-bottom: 24px;
+}
+
 /* =============
     Contact
 ============= */
