@@ -545,6 +545,11 @@ footer {
 /* =============
     Experience
 ============= */
+h2 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 /* =============
     Education
 ============= */
