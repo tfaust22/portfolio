@@ -429,6 +429,9 @@ header h2 {
 /* =============
     Footer
 ============= */
+footer {
+  padding-left: 492px;
+}
 @media (min-width: 768px) {
   footer {
     display: -ms-grid;

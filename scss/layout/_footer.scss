@@ -2,6 +2,7 @@
     Footer
 ============= */
 footer{
+    padding-left: 492px;
     @include md{
         display: grid;
         grid-template-columns: 50% auto;
