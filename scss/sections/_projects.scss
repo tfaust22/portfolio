@@ -30,4 +30,10 @@ h1{
 #project-right{
     grid-area: pr;
     padding-right: 24px;
+    ul{
+        padding-left: 24px;
+        li{
+            list-style-type: disc;
+        }
+    }
 }

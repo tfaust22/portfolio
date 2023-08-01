@@ -711,3 +711,9 @@ h1 {
     -ms-grid-column: 3;
   }
 }
+#project-right ul {
+  padding-left: 24px;
+}
+#project-right ul li {
+  list-style-type: disc;
+}
