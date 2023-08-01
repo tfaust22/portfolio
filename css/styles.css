@@ -592,6 +592,7 @@ footer {
 section {
   padding-left: 48px;
   padding-bottom: 16px;
+  line-height: 1.5;
 }
 section ul {
   padding-left: 64px;
