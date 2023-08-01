@@ -30,8 +30,9 @@ h1{
 #project-right{
     grid-area: pr;
     padding-right: 24px;
+    padding-left: 24px;
     ul{
-        padding-left: 24px;
+        padding-left: 48px;
         li{
             list-style-type: disc;
             padding-top: 8px;
