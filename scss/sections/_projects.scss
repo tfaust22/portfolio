@@ -13,14 +13,21 @@
     }
 }
 
+h1{
+    padding-left: 24px;
+}
+
 #project-left-top{
     grid-area: plt;
+    padding-left: 24px;
 }
 
 #project-left-bottom{
     grid-area: plr;
+    padding-left: 24px;
 }
 
 #project-right{
     grid-area: pr;
+    padding-right: 24px;
 }
