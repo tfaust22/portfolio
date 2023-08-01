@@ -464,6 +464,7 @@ header {
 
 #index-bottom {
   grid-area: ib;
+  padding-bottom: 48px;
 }
 
 @media (min-width: 1024px) {
