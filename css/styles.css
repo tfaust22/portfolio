@@ -455,6 +455,7 @@ header {
 
 #index-left {
   grid-area: il;
+  padding-left: 24px;
 }
 
 #index-right {
