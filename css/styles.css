@@ -625,7 +625,7 @@ h2 {
 #edu-bottom {
   grid-area: eb;
   padding-bottom: 24px;
-  padding-left: 72px;
+  padding-left: 24px;
 }
 
 @media (min-width: 1024px) {
