@@ -590,6 +590,10 @@ footer {
   background-color: white;
 }
 
+.social-icon li {
+  margin: 0 8px;
+}
+
 /* =============
     Associations
 ============= */
