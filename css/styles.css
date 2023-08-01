@@ -435,14 +435,6 @@ footer {
 footer p {
   padding-left: 468px;
 }
-@media (min-width: 768px) {
-  footer {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% auto;
-    grid-template-columns: 50% auto;
-  }
-}
 
 /* =============
     Index
