@@ -423,7 +423,7 @@ header {
   padding: 48px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
 }
 header nav a:link, header nav a:visited {
   color: var(darkseagreen);
@@ -431,6 +431,7 @@ header nav a:link, header nav a:visited {
   transition: 0.25s;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
+  font-weight: 300;
 }
 header nav a:hover, header nav a:active {
   color: var(cadetblue);
