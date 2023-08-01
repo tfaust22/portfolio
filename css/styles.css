@@ -621,13 +621,13 @@ h2 {
 
 #edu-left-text {
   grid-area: elt;
-  padding-left: 48px;
+  padding-left: 140px;
 }
 
 #edu-bottom {
   grid-area: eb;
   padding-bottom: 24px;
-  padding-left: 56px;
+  padding-left: 140px;
 }
 
 @media (min-width: 1024px) {
