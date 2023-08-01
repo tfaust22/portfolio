@@ -10,11 +10,12 @@ header{
     font-size: rem-calc(24px);
 
     h2{
+    text-align:center;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
-    font-size: rem-calc(16px); 
+    font-size: rem-calc(24px); 
     }
-    
+
     nav{
         a:link, a:visited{
             color: var(darkseagreen);
