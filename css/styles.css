@@ -708,6 +708,9 @@ h2 {
     -ms-grid-column-span: 3;
   }
 }
+#edu-bottom ul li {
+  list-style-type: none;
+}
 #edu-bottom h2 {
   padding-left: 24px;
 }

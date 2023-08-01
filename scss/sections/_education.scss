@@ -51,6 +51,11 @@
     grid-area: eb;
     padding-bottom: 24px;
     padding-left: 24px;
+    ul{
+        li{
+            list-style-type: none;
+        }
+    }
 
     h2{
         padding-left: 24px;
