@@ -540,6 +540,10 @@ footer {
   }
 }
 
+nav {
+  background-color: white;
+}
+
 /* =============
     Associations
 ============= */
