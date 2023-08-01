@@ -5,9 +5,18 @@
 header{
     padding: 48px 0;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: rem-calc(24px);
+
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: rem-calc(24px);
+    }
+
+    h2{
+        font-family: 'Oswald', sans-serif; 
+        font-weight: 400;
+        font-size: rem-cal(16px)
+    }
 
     nav{
         a:link, a:visited{
