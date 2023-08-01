@@ -2,7 +2,7 @@
     Associations
 ============= */
 
-section{
+#associations{
     padding-left: 48px;
     ul{
         padding-left: 64px;
@@ -12,4 +12,16 @@ section{
         }
     }
     padding-bottom: 16px;
+}
+
+#causes{
+    padding-left: 48px;
+    ul{
+        padding-left: 64px;
+        li{
+            list-style-type: disc;
+            padding-top: 8px;
+        }
+    }
+    padding-bottom: 24px;
 }

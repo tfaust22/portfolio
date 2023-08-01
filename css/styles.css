@@ -543,14 +543,26 @@ footer {
 /* =============
     Associations
 ============= */
-section {
+#associations {
   padding-left: 48px;
   padding-bottom: 16px;
 }
-section ul {
+#associations ul {
   padding-left: 64px;
 }
-section ul li {
+#associations ul li {
+  list-style-type: disc;
+  padding-top: 8px;
+}
+
+#causes {
+  padding-left: 48px;
+  padding-bottom: 24px;
+}
+#causes ul {
+  padding-left: 64px;
+}
+#causes ul li {
   list-style-type: disc;
   padding-top: 8px;
 }
