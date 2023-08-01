@@ -459,6 +459,8 @@ header {
 
 #index-right {
   grid-area: ir;
+}
+#index-right h2 {
   padding-bottom: 24px;
 }
 
