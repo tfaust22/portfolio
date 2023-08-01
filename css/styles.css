@@ -365,6 +365,10 @@ body {
   grid-area: content;
 }
 
+header {
+  padding-left: 72px;
+}
+
 /* =============
     Typography
 ============= */
