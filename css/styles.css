@@ -431,9 +431,8 @@ header h2 {
 ============= */
 footer {
   padding-left: 492px;
-}
-footer p2 {
-  padding-left: 468px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* =============
