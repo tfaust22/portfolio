@@ -336,6 +336,9 @@ template {
 nav {
   background-color: darkseagreen;
 }
+nav #contact-nag {
+  background-color: white;
+}
 
 footer {
   background-color: darkseagreen;
@@ -363,10 +366,6 @@ body {
   -ms-grid-column: 2;
   background-color: white;
   grid-area: content;
-}
-
-header {
-  padding-left: 72px;
 }
 
 /* =============
