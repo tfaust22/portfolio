@@ -545,6 +545,7 @@ footer {
 ============= */
 section {
   padding-left: 48px;
+  padding-bottom: 16px;
 }
 section ul {
   padding-left: 64px;
