@@ -3,6 +3,9 @@
 ============= */
 footer{
     padding-left: 492px;
+    p{
+        padding-left: 468px;
+    }
     @include md{
         display: grid;
         grid-template-columns: 50% auto;
