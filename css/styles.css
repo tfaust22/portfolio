@@ -511,8 +511,9 @@ footer {
   padding-bottom: 48px;
   padding-right: 48px;
 }
-#index-right p2 {
-  padding-left: 88px;
+#index-right article {
+  text-align: center;
+  font-style: italic;
 }
 
 #index-bottom {
