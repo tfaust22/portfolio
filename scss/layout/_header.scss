@@ -9,12 +9,6 @@ header{
     font-weight: 600;
     font-size: rem-calc(24px);
 
-    h2{
-        font-family: 'Oswald', sans-serif; 
-        font-weight: 400;
-        font-size: rem-cal(16px)
-    }
-
     nav{
         a:link, a:visited{
             color: var(darkseagreen);
@@ -23,7 +17,6 @@ header{
             font-family: 'Oswald', sans-serif;
             font-weight: 400;
         }
-
         a:hover, a:active{
             color: var(cadetblue);
         }      

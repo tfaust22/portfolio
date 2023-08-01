@@ -426,11 +426,6 @@ header {
   font-weight: 600;
   font-size: 1.5rem;
 }
-header h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: rem-cal(16px);
-}
 header nav a:link, header nav a:visited {
   color: var(darkseagreen);
   -webkit-transition: 0.25s;
