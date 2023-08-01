@@ -9,6 +9,12 @@ header{
     font-weight: 600;
     font-size: rem-calc(24px);
 
+    h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: rem-calc(16px); 
+    }
+    
     nav{
         a:link, a:visited{
             color: var(darkseagreen);
