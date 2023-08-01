@@ -608,6 +608,9 @@ h2 {
 #edu-right-text ul li {
   list-style-type: disc;
 }
+#edu-right-text p {
+  padding-top: 16px;
+}
 
 #edu-left-text {
   grid-area: elt;
