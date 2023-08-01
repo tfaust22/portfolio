@@ -6,14 +6,16 @@ header{
     padding: 48px 0;
     text-align: center;
 
-    a:link, a:visited{
-        color: var(darkseagreen);
-        transition: 0.25s;
-        text-decoration: none;
-        font-family: 'Oswald', sans-serif;
-    }
+    nav{
+        a:link, a:visited{
+            color: var(darkseagreen);
+            transition: 0.25s;
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+        }
 
-    a:hover, a:active{
-        color: var(cadetblue);
+        a:hover, a:active{
+            color: var(cadetblue);
+        }      
     }
 }

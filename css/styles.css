@@ -423,14 +423,14 @@ header {
   padding: 48px 0;
   text-align: center;
 }
-header a:link, header a:visited {
+header nav a:link, header nav a:visited {
   color: var(darkseagreen);
   -webkit-transition: 0.25s;
   transition: 0.25s;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
 }
-header a:hover, header a:active {
+header nav a:hover, header nav a:active {
   color: var(cadetblue);
 }
 
