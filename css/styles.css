@@ -750,17 +750,20 @@ h1 {
 #project-left-top {
   grid-area: plt;
   padding-left: 24px;
+  line-height: 1.5;
 }
 
 #project-left-bottom {
   grid-area: plr;
   padding-left: 24px;
+  line-height: 1.5;
 }
 
 #project-right {
   grid-area: pr;
   padding-right: 24px;
   padding-left: 24px;
+  line-height: 1.5;
 }
 
 @media (min-width: 1024px) {
