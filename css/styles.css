@@ -370,7 +370,6 @@ body {
 ============= */
 body {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
 }
 
 h1, h2, h3, h4, h5 {
@@ -424,6 +423,7 @@ header {
   padding: 48px 0;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 header nav a:link, header nav a:visited {
   color: var(darkseagreen);
