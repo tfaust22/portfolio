@@ -420,8 +420,7 @@ textarea {
     Header
 ============= */
 header {
-  padding: 48px;
-  padding-left: 72px;
+  padding: 48px 0;
 }
 
 /* =============
