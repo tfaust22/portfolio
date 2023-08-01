@@ -422,7 +422,7 @@ textarea {
 header {
   padding: 48px 0;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 header nav a:link, header nav a:visited {
   color: var(darkseagreen);
