@@ -4,14 +4,15 @@
 
 header{
     padding: 48px 0;
+    text-align: center;
 
-    h1{
-    padding-left: 492px;
+    a:link, a:visited{
+        color: var(darkseagreen);
+        text-decoration: none;
     }
 
-    h2{
-        padding-left: 468px;
-        padding-top: 4px;
+    a:hover, a:active{
+        color: var(cadetblue);
+        text-decoration: none;
     }
-
 }

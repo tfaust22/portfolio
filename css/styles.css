@@ -421,13 +421,15 @@ textarea {
 ============= */
 header {
   padding: 48px 0;
+  text-align: center;
 }
-header h1 {
-  padding-left: 492px;
+header a:link, header a:visited {
+  color: var(darkseagreen);
+  text-decoration: none;
 }
-header h2 {
-  padding-left: 468px;
-  padding-top: 4px;
+header a:hover, header a:active {
+  color: var(cadetblue);
+  text-decoration: none;
 }
 
 /* =============
