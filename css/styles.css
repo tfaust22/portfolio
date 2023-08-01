@@ -435,7 +435,10 @@ header {
 }
 header a:link, header a:visited {
   color: var(darkseagreen);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 header a:hover, header a:active {
   color: var(cadetblue);
