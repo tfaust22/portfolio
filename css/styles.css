@@ -428,12 +428,10 @@ header a:link, header a:visited {
   -webkit-transition: 0.25s;
   transition: 0.25s;
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 header a:hover, header a:active {
   color: var(cadetblue);
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
 }
 
 /* =============
