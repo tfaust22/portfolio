@@ -590,8 +590,8 @@ footer {
   background-color: white;
 }
 
-.social-icon li {
-  margin: 0 8px;
+.social-icon {
+  padding-right: 8px;
 }
 
 /* =============
