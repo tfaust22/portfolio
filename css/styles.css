@@ -717,3 +717,6 @@ h1 {
 #project-right ul li {
   list-style-type: disc;
 }
+#project-right ul li a {
+  margin-bottom: 8px;
+}
