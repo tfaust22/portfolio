@@ -663,6 +663,7 @@ h2 {
   grid-area: ert;
   padding-left: 140px;
   padding-bottom: 24px;
+  line-height: 1.5;
 }
 #edu-right-text h2 {
   padding-left: 16px;
@@ -681,6 +682,7 @@ h2 {
 #edu-left-text {
   grid-area: elt;
   padding-left: 72px;
+  line-height: 1.5;
 }
 
 #edu-bottom {
