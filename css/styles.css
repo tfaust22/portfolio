@@ -621,6 +621,9 @@ h2 {
   grid-area: elt;
   padding-left: 124px;
 }
+#edu-left-text p {
+  padding-top: 8px;
+}
 
 #edu-bottom {
   grid-area: eb;
