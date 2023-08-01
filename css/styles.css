@@ -598,6 +598,15 @@ h2 {
 #edu-right-text {
   grid-area: ert;
 }
+#edu-right-text h2 {
+  padding-left: 16px;
+}
+#edu-right-text ul {
+  padding-left: 24px;
+}
+#edu-right-text ul li {
+  list-style-type: disc;
+}
 
 #edu-left-text {
   grid-area: elt;
