@@ -449,10 +449,16 @@ footer {
     Index
 ============= */
 #index a:link, #index a:visited {
-  color: var(#054e76);
+  color: var(darkseagreen);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 #index a:hover, #index a:active {
-  color: var(#054e76);
+  color: var(cadetblue);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 
 @media (min-width: 1024px) {

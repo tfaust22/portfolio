@@ -4,10 +4,16 @@
 
 #index{
     a:link, a:visited{
-        color: var(#054e76)
+        color: var(darkseagreen);
+        transition: 0.25s;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
     }
+
     a:hover, a:active{
-        color: var(#054e76)
+        color: var(cadetblue);
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
