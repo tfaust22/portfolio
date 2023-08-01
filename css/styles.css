@@ -569,9 +569,10 @@ h2 {
 }
 
 #experience-blurb {
-  padding-top: 24px;
+  padding-top: 16x;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 24px;
 }
 
 /* =============
