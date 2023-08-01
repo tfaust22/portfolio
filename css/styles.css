@@ -468,6 +468,9 @@ header {
   padding-bottom: 48px;
   padding-right: 48px;
 }
+#index-right p2 {
+  padding-left: 48px;
+}
 
 #index-bottom {
   grid-area: ib;
