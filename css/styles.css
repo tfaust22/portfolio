@@ -527,6 +527,7 @@ footer {
 
 #contact-right {
   grid-area: cr;
+  padding-bottom: 24px;
 }
 
 @media (min-width: 1024px) {
