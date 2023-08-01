@@ -1,3 +1,13 @@
 /* =============
     Navigation
 ============= */
+a:link, a:visited{
+    color: var(darkseagreen);
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: var(cadetblue);
+    text-decoration: none;
+}
