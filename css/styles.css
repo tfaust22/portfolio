@@ -365,6 +365,18 @@ body {
   grid-area: content;
 }
 
+a:link, a:visited {
+  color: var(darkseagreen);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: var(cadetblue);
+  text-decoration: none;
+}
+
 /* =============
     Typography
 ============= */
