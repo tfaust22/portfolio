@@ -459,6 +459,7 @@ header {
 
 #index-right {
   grid-area: ir;
+  padding-bottom: 24px;
 }
 
 #index-bottom {
@@ -479,10 +480,6 @@ header {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
   }
-}
-
-#index-right {
-  padding-bottom: 24px;
 }
 
 /* =============
