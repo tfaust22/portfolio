@@ -1,6 +1,7 @@
 /* =============
     Navigation
 ============= */
+
 a:link, a:visited{
     color: var(darkseagreen);
     transition: 0.25s;
@@ -16,13 +17,21 @@ a:hover, a:active{
     font-weight: 600;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.show-menu{
+    display: block !important;
+}
+
 nav{
     ul{
         il{
             padding: 0 0 16px 24px;
         
             a:link, a:visited{
-                font-size: rem-calc (16);
+                font-size: rem-calc(16);
                 font-weight: 500;
 
                 &:hover, &:active{
