@@ -16,7 +16,6 @@
 }
 
 #index-content{
-    margin-top: 200px;
     @include lg{
         display: grid;
         grid-template-columns: 30% auto;
