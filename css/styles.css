@@ -434,9 +434,11 @@ a:hover, a:active {
 
 nav ul il {
   padding-left: 16px;
+  margin-bottom: 16px;
 }
 nav ul il a:link, nav ul il a:visited {
   font-size: rem-calc 16;
+  font-weight: 500;
 }
 /* =============
     Header
