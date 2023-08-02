@@ -41,11 +41,6 @@ nav{
         @include sm{
             display: flex;
         }
-
-        li{
-            padding: 0 0 24px 24px;
-            text-align: left;
-        }
     }
 
 }
