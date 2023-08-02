@@ -609,6 +609,7 @@ section ul {
 section ul li {
   list-style-type: disc;
   padding-top: 8px;
+  padding-right: 16px;
 }
 
 /* =============
