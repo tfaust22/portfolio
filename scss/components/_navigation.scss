@@ -15,33 +15,3 @@ a:hover, a:active{
 .bold-link{
     font-weight: 600;
 }
-
-nav{
-    text-align: left;
-    @include lg{
-        display: flex;
-    }
-
-    ul{
-        @include lg{
-            display: flex;
-        }
-        
-        @include md{
-            display: flex;
-        }
-
-        @include xl{
-            display: flex;
-        }
-
-        @include xxl{
-            display: flex;
-        }
-
-        @include sm{
-            display: flex;
-        }
-    }
-
-}
