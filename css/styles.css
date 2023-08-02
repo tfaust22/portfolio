@@ -568,6 +568,9 @@ footer {
   text-decoration: none;
 }
 
+#index-content {
+  margin-top: 180px;
+}
 @media (min-width: 1024px) {
   #index-content {
     display: -ms-grid;
