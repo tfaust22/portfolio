@@ -434,6 +434,8 @@ a:hover, a:active {
 
 nav ul il {
   padding-left: 16px;
+}
+nav ul il a:link, nav ul il a:visited {
   font-size: rem-calc 16;
 }
 /* =============
