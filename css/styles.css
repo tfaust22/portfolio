@@ -432,12 +432,6 @@ a:hover, a:active {
   font-weight: 600;
 }
 
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 /* =============
     Header
 ============= */
@@ -454,6 +448,11 @@ header p {
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 0.125rem;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 header nav a:link, header nav a:visited {
   color: var(darkseagreen);

@@ -19,6 +19,7 @@ header{
     }
 
     nav{
+        display: flex;
         a:link, a:visited{
             color: var(darkseagreen);
             transition: 0.25s;
