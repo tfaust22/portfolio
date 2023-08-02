@@ -52,4 +52,13 @@ header{
     font-size: rem-calc(24); 
     letter-spacing:rem-calc(2);
     }
+
+    nav{
+        grid-area: burger;
+        ul{
+            li{
+                list-style: none;
+            }
+        }
+    }
 }
