@@ -19,6 +19,7 @@ header{
     }
 
     nav{
+        text-align: left;
         a:link, a:visited{
             color: var(darkseagreen);
             transition: 0.25s;
@@ -33,13 +34,6 @@ header{
             color: var(cadetblue);
         }      
 
-        @include md{
-            display: flex;
-        }
-
-        @include lg{
-            display: flex;
-        }
     }
 
 }

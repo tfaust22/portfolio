@@ -450,6 +450,9 @@ header p {
   font-size: 1.5rem;
   letter-spacing: 0.125rem;
 }
+header nav {
+  text-align: left;
+}
 header nav a:link, header nav a:visited {
   color: var(darkseagreen);
   -webkit-transition: 0.25s;
@@ -462,20 +465,6 @@ header nav a:link, header nav a:visited {
 }
 header nav a:hover, header nav a:active {
   color: var(cadetblue);
-}
-@media (min-width: 768px) {
-  header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-@media (min-width: 1024px) {
-  header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 
 /* =============
