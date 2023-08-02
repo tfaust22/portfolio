@@ -1,9 +1,9 @@
-let burgerBtn = document.querySelector("burger-button");
+let burgerButton = document.querySelector("burger-button");
 let mainMenu = document.querySelector("main-menu");
 
 let canSeeMenu = false;
 
-burgerBtn.addEventListener("click", () => {
+burgerButton.addEventListener("click", () => {
     console.log(canSeeMenu);
     
     if(!canSeeMenu){
