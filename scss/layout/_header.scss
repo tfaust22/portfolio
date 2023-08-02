@@ -5,6 +5,10 @@
 header{
     padding: 48px 0;
     text-align: center;
+    display: grid;
+    grid-template-areas:
+    "burger"
+    "nav";
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: rem-calc(24);

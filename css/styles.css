@@ -438,6 +438,9 @@ a:hover, a:active {
 header {
   padding: 48px 0;
   text-align: center;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "burger" "nav";
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
