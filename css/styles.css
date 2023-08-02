@@ -450,7 +450,7 @@ header p {
   font-size: 1.5rem;
   letter-spacing: 0.125rem;
 }
-header #main-menu a:link, header #main-menu a:visited {
+header nav a:link, header nav a:visited {
   color: var(darkseagreen);
   -webkit-transition: 0.25s;
   transition: 0.25s;
@@ -460,7 +460,7 @@ header #main-menu a:link, header #main-menu a:visited {
   font-size: 1rem;
   letter-spacing: normal;
 }
-header #main-menu a:hover, header #main-menu a:active {
+header nav a:hover, header nav a:active {
   color: var(cadetblue);
 }
 
