@@ -33,6 +33,14 @@ nav{
         @include xl{
             display: flex;
         }
+
+        @include xxl{
+            display: flex;
+        }
+
+        @include sm{
+            display: flex;
+        }
     }
 
 }
