@@ -25,5 +25,14 @@ nav{
         @include lg{
             display: flex;
         }
+        
+        @include md{
+            display: flex;
+        }
+
+        @include xl{
+            display: flex;
+        }
     }
+
 }
