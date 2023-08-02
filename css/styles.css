@@ -432,6 +432,10 @@ a:hover, a:active {
   font-weight: 600;
 }
 
+nav ul il {
+  padding-left: 16px;
+  font-size: rem-calc 16;
+}
 /* =============
     Header
 ============= */
