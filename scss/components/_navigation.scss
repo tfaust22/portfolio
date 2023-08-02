@@ -15,3 +15,15 @@ a:hover, a:active{
 .bold-link{
     font-weight: 600;
 }
+
+nav{
+    @include lg{
+        display: flex;
+    }
+
+    ul{
+        @include lg{
+            display: flex;
+        }
+    }
+}
