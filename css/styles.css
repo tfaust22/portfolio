@@ -599,7 +599,7 @@ footer {
     Associations
 ============= */
 section {
-  padding-left: 48px;
+  padding-left: 24px;
   padding-bottom: 16px;
   line-height: 1.5;
 }
@@ -609,9 +609,6 @@ section ul {
 section ul li {
   list-style-type: disc;
   padding-top: 8px;
-}
-section ul li dd {
-  padding-right: 16px;
 }
 
 /* =============
