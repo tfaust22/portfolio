@@ -486,8 +486,11 @@ header #burger-container button {
   border: none;
   background-color: transparent;
   color: black;
-  font-size: 1.25rem;
+  font-size: 1rem;
   cursor: pointer;
+}
+header #burger-container button i {
+  padding-right: 8px;
 }
 header p {
   text-align: center;
