@@ -17,7 +17,7 @@ a:hover, a:active{
 }
 
 nav{
-    word-spacing: 16px;;
+    text-align: left;
     @include lg{
         display: flex;
     }
