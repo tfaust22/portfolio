@@ -9,41 +9,6 @@ header{
     font-weight: 600;
     font-size: rem-calc(24);
     letter-spacing: rem-calc(16);
-    display: grid;
-    grid-template-areas:
-    "burger"
-    "nav";
-    padding: 16px;
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
-    box-shadow: 0px 1px 1px rbga(42, 48, 54, 0.3);
-    top:0;
-    left:0;
-
-    @include lg{
-        grid-template-areas: "logo nav";
-    }
-
-    #burger-container{
-        grid-area: burger;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-
-        @include lg{
-            display: none;
-        }
-
-        button{
-            border: none;
-            background-color: transparent;
-            color: black;
-            font-size: rem-calc(20);
-            cursor: pointer;
-        }
-    }
-
 
     p{
     text-align: center;
@@ -54,11 +19,18 @@ header{
     }
 
     nav{
-        grid-area: burger;
-        ul{
-            li{
-                list-style: none;
-            }
+        a:link, a:visited{
+            color: var(darkseagreen);
+            transition: 0.25s;
+            text-decoration: none;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: rem-calc(16px);
+            letter-spacing: normal;
         }
+
+        a:hover, a:active{
+            color: var(cadetblue);
+        }      
     }
 }
