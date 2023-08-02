@@ -54,6 +54,7 @@ header{
     }
 
     nav{
+        grid-area: nav;
         a:link, a:visited{
             color: var(darkseagreen);
             transition: 0.25s;
