@@ -30,7 +30,9 @@ header{
         grid-area: burger;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: center;
+        background-color: darkseagreen;
+        padding: 16px 0;
 
         @include lg{
             display: none;

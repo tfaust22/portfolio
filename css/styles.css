@@ -471,9 +471,11 @@ header #burger-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: darkseagreen;
+  padding: 16px 0;
 }
 @media (min-width: 1024px) {
   header #burger-container {
