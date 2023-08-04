@@ -13,9 +13,15 @@ nav{
     }
 
     li{
-        display: inline;
+        float: left;
     }
-    
+
+    a{
+        display: block;
+        padding: 8px;
+        background-color: darkseagreen;
+    }
+
     a:link, a:visited{
         color: var(darkseagreen);
         transition: 0.25s;
