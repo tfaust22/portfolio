@@ -681,10 +681,10 @@ h2 {
   padding-left: 16px;
   padding-bottom: 8px;
 }
-#edu-right-text ul {
+#edu-right-text dl {
   padding-left: 54px;
 }
-#edu-right-text ul li {
+#edu-right-text dl dt {
   list-style-type: disc;
 }
 #edu-right-text p {
