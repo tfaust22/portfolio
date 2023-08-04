@@ -603,7 +603,6 @@ section dl {
   padding-left: 64px;
 }
 section dl dt {
-  list-style-type: disc;
   padding-top: 8px;
 }
 
@@ -681,10 +680,10 @@ h2 {
   padding-left: 16px;
   padding-bottom: 8px;
 }
-#edu-right-text dl {
+#edu-right-text ul {
   padding-left: 54px;
 }
-#edu-right-text dl dt {
+#edu-right-text ul li {
   list-style-type: disc;
 }
 #edu-right-text p {
