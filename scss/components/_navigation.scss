@@ -7,25 +7,28 @@
 }
 
 nav{
-    text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: rem-calc(16px);
-    letter-spacing: normal;
-
+    
     ul{
         margin: 0;
         padding: 0;
     }
 
     li{
-        float: left;
+        float: inline;
     }
 
-    a{
-        display: block;
-        padding: 8px;
-        background-color: darkseagreen;
-    }    
+    a:link, a:visited{
+        color: var(darkseagreen);
+        transition: 0.25s;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: rem-calc(16px);
+        letter-spacing: normal;
+    }
+
+    a:hover, a:active{
+        color: var(cadetblue);
+    }      
 
 }

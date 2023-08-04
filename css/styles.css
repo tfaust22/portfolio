@@ -420,24 +420,25 @@ textarea {
   font-weight: 600;
 }
 
-nav {
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  float: inline;
+}
+nav a:link, nav a:visited {
+  color: var(darkseagreen);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   letter-spacing: normal;
 }
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-nav li {
-  float: left;
-}
-nav a {
-  display: block;
-  padding: 8px;
-  background-color: darkseagreen;
+nav a:hover, nav a:active {
+  color: var(cadetblue);
 }
 
 /* =============
