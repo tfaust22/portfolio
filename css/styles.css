@@ -432,6 +432,20 @@ a:hover, a:active {
   font-weight: 600;
 }
 
+nav a:link, nav a:visited {
+  color: var(darkseagreen);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: normal;
+}
+nav a:hover, nav a:active {
+  color: var(cadetblue);
+}
+
 /* =============
     Header
 ============= */
@@ -448,19 +462,6 @@ header p {
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 0.125rem;
-}
-header nav a:link, header nav a:visited {
-  color: var(darkseagreen);
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-  text-decoration: none;
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  letter-spacing: normal;
-}
-header nav a:hover, header nav a:active {
-  color: var(cadetblue);
 }
 
 /* =============

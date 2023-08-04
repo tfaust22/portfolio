@@ -17,3 +17,19 @@ a:hover, a:active{
     font-weight: 600;
 }
 
+nav{
+    a:link, a:visited{
+        color: var(darkseagreen);
+        transition: 0.25s;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: rem-calc(16px);
+        letter-spacing: normal;
+    }
+
+    a:hover, a:active{
+        color: var(cadetblue);
+    }      
+
+}
