@@ -420,11 +420,11 @@ textarea {
   font-weight: 600;
 }
 
-nav ul {
+#nav-header ul {
   margin: 0;
   padding: 0;
 }
-nav a:link, nav a:visited {
+#nav-header a:link, #nav-header a:visited {
   color: var(darkseagreen);
   -webkit-transition: 0.25s;
   transition: 0.25s;
@@ -434,7 +434,7 @@ nav a:link, nav a:visited {
   font-size: 1rem;
   letter-spacing: normal;
 }
-nav a:hover, nav a:active {
+#nav-header a:hover, #nav-header a:active {
   color: var(cadetblue);
 }
 
