@@ -432,6 +432,10 @@ a:hover, a:active {
   font-weight: 600;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
 nav a:link, nav a:visited {
   color: var(darkseagreen);
   -webkit-transition: 0.25s;

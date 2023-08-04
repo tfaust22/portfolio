@@ -18,6 +18,10 @@ a:hover, a:active{
 }
 
 nav{
+    ul{
+        margin: 0;
+        padding: 0;
+    }
     a:link, a:visited{
         color: var(darkseagreen);
         transition: 0.25s;
